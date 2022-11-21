@@ -9,7 +9,7 @@ import "./LandingPage.scss";
 
 function LandingPage() {
   return (
-    <div className="col-sm-12 p-0">
+    <div className="col-sm-12 p-md-0 background_fixed">
       <NavbarLanding />
       <div className="col-sm-12 header_height p-0 ">
         <div className="col-sm-12 pr-0 padding_custom pt-5">
@@ -47,11 +47,9 @@ function LandingPage() {
                 </span>
               </div>
             </div>
-            <div className="col-sm-7 pr-0 m-auto text-right">
+            <div className="col-sm-7  m-auto text-right">
               <img
-                src="https://powercode.co.uk/static/media/3d-2.f369a27c.png"
-                className="img-fluid "
-              />
+                src="../images/landing.png" className="img-fluid"/>
             </div>
           </div>
         </div>
