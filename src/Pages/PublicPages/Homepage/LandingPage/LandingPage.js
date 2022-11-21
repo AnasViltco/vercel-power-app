@@ -9,7 +9,7 @@ import "./LandingPage.scss";
 
 function LandingPage() {
   return (
-    <div className="col-sm-12 p-0 background_fixed">
+    <div className="col-sm-12 p-md-1 background_fixed">
       <NavbarLanding />
       <div className="col-sm-12 header_height p-0 ">
         <div className="col-sm-12 pr-0 padding_custom pt-5">
@@ -242,7 +242,7 @@ function LandingPage() {
           <div className="col-sm-12 backgroundC4 p-5" >
          <div className="row">
           <div className="col-sm-3 m-auto">
-            <h1><b>Awards & Recognition</b></h1>
+            <h1 className="mobilefont"><b>Awards & Recognition</b></h1>
           </div>
           <div className="col-sm-9">
             <CrousalCard />
@@ -403,11 +403,11 @@ function LandingPage() {
           <div className="col-sm-4">
             <div className="col-sm-12 background_card p-4">
               <h3><b>Contacts:</b></h3>
-              <h5 className="py-3"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> contact@powercode.co.uk</h5>
+              <h5 className="py-3 footer_font"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> contact@powercode.co.uk</h5>
                 <div className="row">
                   <div className="col-sm-8">
-                  <h5 className="py-3"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> Our locations</h5>
-                <h5 className="py-3"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> +442045772044</h5>
+                  <h5 className="py-3 footer_font"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> Our locations</h5>
+                <h5 className="py-3 footer_font"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> +442045772044</h5>
              </div>
              <div className="col-sm-4 text-right">
                 <img src="../images/tri.png" className="img-fluid"  style={{marginRight:"-70px"}} />
