@@ -9,7 +9,7 @@ import "./LandingPage.scss";
 
 function LandingPage() {
   return (
-    <div className="col-sm-12 p-md-0 background_fixed">
+    <div className="col-sm-12 p-0 background_fixed">
       <NavbarLanding />
       <div className="col-sm-12 header_height p-0 ">
         <div className="col-sm-12 pr-0 padding_custom pt-5">
