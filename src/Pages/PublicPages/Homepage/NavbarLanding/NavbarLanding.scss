@@ -7,10 +7,16 @@
     color: #0069D9;
 }
 
+.navmobile
+{
+    display: none;
+}
+
 .background_navbar
 {
     background-color: white;
 }
+
 
 div.ruby-menu-demo-header {
     position: relative;
@@ -522,6 +528,14 @@ img.iphone7 {
 }
 
 @media(max-width: 767px) {
+    .navmobile
+{
+    display: block;
+}
+.navpc
+{
+    display: none;
+}
     div.ruby-menu-demo-header {
         width:100%;
         height: auto
