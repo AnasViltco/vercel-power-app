@@ -421,7 +421,7 @@ function LandingPage() {
         {/* <div className="col-sm-12 px-5 py-5">
          
          </div> */}
-         <FooterLanding/>
+      
 
 
       </div>
@@ -435,6 +435,7 @@ function LandingPage() {
 
 
       </div>
+      <FooterLanding/>
 
    
      
