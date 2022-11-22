@@ -4,7 +4,7 @@ import "./FooterLanding.scss";
 function FooterLanding() {
   return (
     <div className="col-sm-12 background_color pt-5 pb-5">
-      <div className="col-sm-12 px-5  pb-5 ">
+      <div className="col-sm-12 px-md-5  pb-5 ">
         <div className="row">
           <div className="col-sm-5">
            <div className="col-sm-12 p-0">

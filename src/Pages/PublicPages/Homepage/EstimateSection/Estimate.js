@@ -18,7 +18,7 @@ function Estimate() {
 
 
   return (
-    <div className="col-sm-12 px-5">
+    <div className="col-sm-12 px-md-5">
         <h1><b>Estimation of your project</b></h1>
 
        
@@ -53,8 +53,8 @@ function Estimate() {
                 {/* className='color_card' */}
                 
             </div>
-            <div className='col-sm-7'>
-                <ul>
+            <div className='col-sm-7 padding_left_zero_mob'>
+                <ul className='padding_left_ajust_mob'>
                     <li><h5 >In case we receive enough information, we make a rough estimation to define the time frame and budget, and make a brief description of our solution. In case there’s not enough information to make a rough estimation, we just ask the client for more details. It’s that simple.</h5></li>
                     <li><h5 >In case we receive enough information, we make a rough estimation to define the time frame and budget, and make a brief description of our solution. In case there’s not enough information to make a rough estimation, we just ask the client for more details. It’s that simple.</h5></li>
                 </ul>
@@ -92,8 +92,8 @@ function Estimate() {
             {/* className='color_card' */}
             
         </div>
-        <div className='col-sm-7'>
-            <ul>
+        <div className='col-sm-7 padding_left_zero_mob'>
+            <ul className='padding_left_ajust_mob'>
                 <li><h5 >Once our proposed solution fits the client and we have enough data for a detailed estimation, we create a scope estimation that includes a timeline with iterations, acceptance criteria, deadlines, etc.</h5></li>
                 <li><h5 >These details regarding the stages of the development process, the quality of software pieces, and deadlines give the client a better understanding of the product creation process. At this stage, the client can give us their additional concerns and expectations regarding the development process and the final result so we can use them in the detailed analysis.</h5></li>
             </ul>
@@ -132,8 +132,8 @@ function Estimate() {
             {/* className='color_card' */}
             
         </div>
-        <div className='col-sm-7'>
-            <ul>
+        <div className='col-sm-7 padding_left_zero_mob'>
+            <ul className='padding_left_ajust_mob'>
                 <li><h5 >When our solution fits, but there are not enough details, we start business analysis and create a PRD with functional and non-functional requirements and wireframes. Depending on the product specification, PRD may include diagrams, user story, role, permission, and/or risk matrix, etc.</h5></li>
                 <li><h5 >At this final stage of project estimation, we give our clients a full picture of their product development process, as detailed as it can be. The Product Requirements Document and product specification cover logic, functionality, design, and every other compound of both product and project.</h5></li>
             </ul>

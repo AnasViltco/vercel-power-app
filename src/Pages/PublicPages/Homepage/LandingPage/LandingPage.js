@@ -60,49 +60,49 @@ function LandingPage() {
           <div className="row">
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Union.017da616.svg"  />
-          <h5 className="pt-2">UN Official Partner</h5>
+          <h5 className="pt-2 padding_left_logos">UN Official Partner</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Union2.bd48616e.svg"  />
-          <h5 className="pt-2">Projects for WHO</h5>
+          <h5 className="pt-2 padding_left_logos">Projects for WHO</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Frame3.b15284fb.svg"  />
-          <h5 className="pt-2">Forbes bussiness counselling</h5>
+          <h5 className="pt-2 padding_left_logos">Forbes bussiness counselling</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Toggle.8fcfa302.svg"  />
-          <h5 className="pt-2">Co-founder of EASE association</h5>
+          <h5 className="pt-2 padding_left_logos">Co-founder of EASE association</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/computer.8dc0bab4.svg"  />
-          <h5 className="pt-2">IT Academy owner</h5>
+          <h5 className="pt-2 padding_left_logos">IT Academy owner</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/bookmarks.f6d25a31.svg"  />
-          <h5 className="pt-2">Multi-award winner</h5>
+          <h5 className="pt-2 padding_left_logos">Multi-award winner</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/diia.ea66dd83.svg"  />
-          <h5 className="pt-2">Collaboration with Diia</h5>
+          <h5 className="pt-2 padding_left_logos">Collaboration with Diia</h5>
         </div>
         </div>
         
       </div>
-      <div className="col-sm-12 mt-5  pt-5  pb-3 px-5">
-       <div className="col-sm-12">
+      <div className="col-sm-12 mt-5  pt-5  pb-3 px-md-5">
+       <div className="col-sm-12 text_center_mob">
         <h1><b>Get Your Perfectly-skilled Team </b></h1>
        </div>
        <div className="row pt-5 pb-3" >
-        <div className="col-sm-3" >
+        <div className="col-sm-3 text_center_mob" >
           <img src="https://powercode.co.uk/static/media/up_to_7_days.49c05c1d.svg" className="img-fluid" />
         </div>
-        <div className="col-sm-3 m-auto " >
+        <div className="col-sm-3 padding_top_steps m-auto " >
           <div className="row" >
             <div className="col-sm-4" >
               <img src="https://powercode.co.uk/static/media/3days.1f570d48.svg" className="img-fluid" />
             </div>
-            <div className="col-sm-8 pl-0" >
+            <div className="col-sm-8 pl-md-0" >
               <div className="col-sm-12 pl-0" >
                 <h3 className="mb-1"><b>Step 1</b></h3>
               </div>
@@ -115,12 +115,12 @@ function LandingPage() {
               </div>
           </div>
         </div>
-        <div className="col-sm-3 m-auto " >
+        <div className="col-sm-3  m-auto " >
           <div className="row" >
             <div className="col-sm-4" >
               <img src="https://powercode.co.uk/static/media/2days2.ae4e834f.svg" className="img-fluid" />
             </div>
-            <div className="col-sm-8 pl-0" >
+            <div className="col-sm-8 pl-md-0" >
               <div className="col-sm-12 pl-0" >
                 <h3 className="mb-1"><b>Step 2</b></h3>
               </div>
@@ -133,12 +133,12 @@ function LandingPage() {
               </div>
           </div>
         </div>
-        <div className="col-sm-3 m-auto " >
+        <div className="col-sm-3  m-auto " >
           <div className="row" >
             <div className="col-sm-4" >
               <img src="https://powercode.co.uk/static/media/3days.1f570d48.svg" className="img-fluid" />
             </div>
-            <div className="col-sm-8 pl-0" >
+            <div className="col-sm-8 pl-md-0" >
               <div className="col-sm-12 pl-0" >
                 <h3 className="mb-1"><b>Step 3</b></h3>
               </div>
@@ -156,7 +156,7 @@ function LandingPage() {
       </div>
       </div>
 
-      <div className="col-sm-12  p-5 mb-4" >
+      <div className="col-sm-12  p-md-5 mb-4" >
         <div className="col-sm-12 backgroundObjects px-4 " >
           <div className="row">
             <div className="col-sm-6 m-auto"> 
@@ -173,7 +173,7 @@ function LandingPage() {
       </div>
       <Estimate/>
 
-      <div className="col-sm-12 mt-5  pt-4  pb-4 backgroundC3">
+      <div className="col-sm-12 mt-5  pt-4  pb-4 text_center_mob backgroundC3">
           <div className="row">
         <div className="col-sm m-auto">
           <h2 className="pt-2"><b>Our Partners:</b></h2>
@@ -199,7 +199,7 @@ function LandingPage() {
       <div className="col-sm-12 p-0 backgroundimage">
 
 
-        <div className="col-sm-12 px-5 py-5">
+        <div className="col-sm-12 px-md-5 py-5">
           <div className="row" >
             <div className="col-sm-7" >
               <div className="col-sm-12" >
@@ -210,7 +210,7 @@ function LandingPage() {
                 <h5 className="pt-3 color_gray">
                 Powercode is the Ultimate software development company. Increasing your business success with technology!
                 </h5>
-                <button className="btn btn-primary rounded-pill btn-lg mt-3" >
+                <button className="btn btn-primary rounded-pill button_mob_setting btn-lg mt-3" >
                   About Powercode
                 </button>
               </div>
@@ -238,10 +238,10 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 px-5">
+        <div className="col-sm-12 px-md-5">
           <div className="col-sm-12 backgroundC4 p-5" >
          <div className="row">
-          <div className="col-sm-3 m-auto">
+          <div className="col-sm-3 text_center_mob1  m-auto">
             <h1 className="mobilefont"><b>Awards & Recognition</b></h1>
           </div>
           <div className="col-sm-9">
@@ -250,12 +250,12 @@ function LandingPage() {
          </div>
          </div>
         </div>
-        <div className="col-sm-12 px-5 py-5">
+        <div className="col-sm-12 px-md-5 py-5">
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-6 text_center_mob1">
               <h1><b>Case Studies</b></h1>
             </div>
-            <div className="col-sm-6 text-right" >
+            <div className="col-sm-6 text_cases" >
               <button className="btn btn-primary px-5 rounded-pill background_custom" ><b> More cases </b></button>
             </div>
             <div className="col-sm-4 pt-5">
@@ -287,47 +287,47 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 mt-5 px-5 pt-4 pb-5 ">
+        <div className="col-sm-12 mt-5 px-md-5 pt-4 pb-5 ">
           <CrousalTest />
         </div>
-        <div className="col-sm-12 mt-5 px-5 pt-4  pb-4 backgroundC5">
+        <div className="col-sm-12 mt-5 px-md-5 pt-4  pb-4 backgroundC5">
           <div className="row">
         <div className="col-sm">
-        <h3 className="pt-2"><b>What makes us powerful</b></h3>
+        <h3 className="pt-2 padding_left_logos"><b>What makes us powerful</b></h3>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Reliability.f952bde6.svg"  />
-          <h5 className="pt-2">Reliability & Expertise</h5>
+          <h5 className="pt-2 padding_left_logos">Reliability & Expertise</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Smooth.2e1da016.svg"  />
-          <h5 className="pt-2">Smooth Communication</h5>
+          <h5 className="pt-2 padding_left_logos">Smooth Communication</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Rapid.a35059fc.svg"  />
-          <h5 className="pt-2">Rapid Team Assembling</h5>
+          <h5 className="pt-2 padding_left_logos">Rapid Team Assembling</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Loyalty.dbe8fc2d.svg"  />
-          <h5 className="pt-2">Loyalty to the Client</h5>
+          <h5 className="pt-2 padding_left_logos">Loyalty to the Client</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Solid.e313fff7.svg"  />
-          <h5 className="pt-2">Solid Reputation</h5>
+          <h5 className="pt-2 padding_left_logos">Solid Reputation</h5>
         </div>
         <div className="col-sm">
           <img className="img-fluid" src="https://powercode.co.uk/static/media/Fast.fcecfe66.svg"  />
-          <h5 className="pt-2">Fast Feedback & Response</h5>
+          <h5 className="pt-2 padding_left_logos">Fast Feedback & Response</h5>
         </div>
         </div>
         
       </div>
-      <div className="col-sm-12 px-5 py-5">
+      <div className="col-sm-12 px-md-5 py-5">
           <div className="row">
-            <div className="col-sm-6">
+            <div className="col-sm-6 text_center_mob1">
               <h1><b>Case Insights</b></h1>
             </div>
-            <div className="col-sm-6 text-right" >
+            <div className="col-sm-6  text_cases" >
               <button className="btn btn-primary px-5 rounded-pill background_custom" ><b> More insights </b></button>
             </div>
             <div className="col-sm-4 pt-5">
@@ -359,7 +359,7 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 mt-5 px-5 pt-4  pb-4 backgroundC5">
+        <div className="col-sm-12 mt-5 px-md-5 pt-4  pb-4 backgroundC5">
         <div className="col-sm-12">
           <h1><b>Let’s talk!</b></h1>
           <h5>Fill out our form below or send us an email</h5>
@@ -410,7 +410,7 @@ function LandingPage() {
                 <h5 className="py-3 footer_font"> <img className="img-fluid" src="https://powercode.co.uk/static/media/ecommerce.56a166b7.svg"  /> +442045772044</h5>
              </div>
              <div className="col-sm-4 text-right">
-                <img src="../images/tri.png" className="img-fluid"  style={{marginRight:"-70px"}} />
+                <img src="../images/tri.png" className="img-fluid triangle_margine"   />
              </div>
                 </div>
             </div>

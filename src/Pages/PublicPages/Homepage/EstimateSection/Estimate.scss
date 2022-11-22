@@ -13,3 +13,15 @@
 {
     cursor: pointer;
 }
+
+@media screen and (max-width: 980px)
+{
+    .padding_left_zero_mob
+    {
+        padding-left: 0px;
+    }
+    .padding_left_ajust_mob
+    {
+        padding-left: 8%;
+    }
+}

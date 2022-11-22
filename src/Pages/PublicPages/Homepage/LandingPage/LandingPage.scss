@@ -158,12 +158,29 @@
   font-weight: 900;
   color: #25224B;
 }
+.text_cases{
+    text-align: right;
+}
 
+.triangle_margine
+{
+    margin-right: -70px;
+}
 
 
 @media screen and (max-width: 980px) {
+    .triangle_margine
+{
+    margin-right: 1px;
+}
+    .padding_nami_landing
+    {
+        padding-bottom: 15%;
+        text-align: center;
+    }
     .background_fixed{
-        padding: 0.1px;
+        overflow-x: hidden !important;
+        padding: 0px;
     }
     
     .footer_font
@@ -198,8 +215,41 @@
     .heading_color_landing
 {
     // font-weight: 900;
-    font-size: 100%;
+    font-size: 300%;
     color: #25224A;
+}
+
+.padding_left_logos
+{
+    padding-left: 1%;
+}
+.text_center_mob
+{
+    text-align: center;
+}
+.padding_top_steps
+{
+    padding-top: 10%;
+}
+.backgroundObjects
+{
+    padding-top: 15%;
+    padding-top: 15%;
+    text-align: center;
+    border: 4px solid #3475d66d;
+}
+.button_mob_setting
+{
+    margin-bottom: 10%;
+}
+
+.text_center_mob1
+{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.text_cases{
+    text-align: center;
 }
  
    }

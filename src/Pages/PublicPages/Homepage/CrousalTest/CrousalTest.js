@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import "./CrousalTest.scss"
 
 function CrousalTest() {
     
@@ -33,7 +34,7 @@ const responsive = {
                             <h6>Founder and CEO at level UP Ukraine</h6>
                             <h6 style={{color:"#3574D6"}}><b><i class="fas fa-graduation-cap"></i> Ukraine, Media</b></h6>
                         </div>
-                        <div className='col-sm-6'>
+                        <div className='col-sm-6 padding_bottom_video'>
                         <iframe width="100%" height="400" style={{borderRadius:"20px"}} src="https://www.youtube.com/embed/I6Ld2tpH3p0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                      </div>

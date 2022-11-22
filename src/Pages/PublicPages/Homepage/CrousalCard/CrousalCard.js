@@ -24,7 +24,7 @@ const responsive = {
   return (
 
         <Carousel responsive={responsive}>
-            <div className='col-sm-12'>
+            <div className='col-sm-12 '>
                         <img src='https://api-api.powercode.pro/wp-content/uploads/2021/06/fbd_web_development_award.svg' className='img-fluid' />
                     </div>
                     <div className='col-sm-12'>
