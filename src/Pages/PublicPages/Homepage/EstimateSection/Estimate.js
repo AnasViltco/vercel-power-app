@@ -28,7 +28,7 @@ function Estimate() {
             <div className='col-sm-5 ' >
                 <div className='row  py-4'>
                     <div className='col-sm-2' >
-                    <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/bluehouse.171a0723.svg" className='img-fluid'  /></button>
+                    <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/firstSelected.dea3608e.svg" className='img-fluid'  /></button>
                     </div>
                     <div className='col-sm-10 m-auto' >
                     <h5 ><b>  Getting client’s requirements</b></h5>
@@ -75,7 +75,7 @@ function Estimate() {
             </div>
             <div className='row  py-4 ' >
                 <div className='col-sm-2' >
-                <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/bluehouse.171a0723.svg" className='img-fluid'  /></button>
+                <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/firstSelected.dea3608e.svg" className='img-fluid'  /></button>
                 </div>
                 <div className='col-sm-10 m-auto' >
                 <h5 ><b> Solution proposal & project estimation </b></h5>
@@ -122,7 +122,7 @@ function Estimate() {
             </div>
             <div className='row  py-4'>
                 <div className='col-sm-2' >
-                <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/bluehouse.171a0723.svg" className='img-fluid'  /></button>
+                <button className='btn btn-primary bg_tab rounded-circle py-2' ><img src="https://powercode.co.uk/static/media/firstSelected.dea3608e.svg" className='img-fluid'  /></button>
                 </div>
                 <div className='col-sm-10 m-auto' >
                 <h5 ><b> Detailed analysis & PRD </b></h5>

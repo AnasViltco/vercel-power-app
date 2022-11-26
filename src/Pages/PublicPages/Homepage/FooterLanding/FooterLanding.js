@@ -18,67 +18,74 @@ function FooterLanding() {
            </div>
           
           </div>
-          <div className="col-sm-2 pt-2">
+          <div className="col-sm-3 pt-2">
             <h6 className="py-1">
             <b>Mobile development</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>web development</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Design</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Business Analytics</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Legacy Code Modernization</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
-            </h6>
-            
-          </div>
-          <div className="col-sm-2 pt-2">
-            <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Quality Assurance</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Ecommerece Consulting</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
-            </h6>
-            <h6 className="py-1">
-            <b>Mobile development</b>
-            </h6>
-            <h6 className="py-1">
-            <b>Mobile development</b>
-            </h6>
-            <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>MVP</b>
             </h6>
             
           </div>
           <div className="col-sm-2 pt-2">
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Ecommerce</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Foodtech</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Healthcare</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Enterprise solutions</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Education</b>
             </h6>
             <h6 className="py-1">
-            <b>Mobile development</b>
+            <b>Entertainment</b>
             </h6>
+            <h6 className="py-1">
+            <b>Real estate</b>
+            </h6>
+            <h6 className="py-1">
+            <b>Hospitality</b>
+            </h6>
+            
+          </div>
+          <div className="col-sm-2 pt-2">
+            <h6 className="py-1">
+            <b>Company</b>
+            </h6>
+            <h6 className="py-1">
+            <b>Careers</b>
+            </h6>
+            <h6 className="py-1">
+            <b>Case Studies</b>
+            </h6>
+            <h6 className="py-1">
+            <b>Insights</b>
+            </h6>
+           
             
           </div>
        

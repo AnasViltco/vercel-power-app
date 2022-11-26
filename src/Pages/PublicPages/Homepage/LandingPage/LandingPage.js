@@ -30,7 +30,7 @@ function LandingPage() {
                 <span>
                   {" "}
                   <button
-                    className="btn btn-primary button_join_border background_custom py-2 px-5 rounded-pill"
+                    className="btn btn-dark button_join_border  py-2 px-5 rounded-pill"
                     type="submit"
                   >
                    <b> Lets Do This!</b>
@@ -107,7 +107,7 @@ function LandingPage() {
                 <h3 className="mb-1"><b>Step 1</b></h3>
               </div>
               <div className="col-sm-12 pl-0" >
-                <badge className="badge  badge-primary background_custom rounded-pill px-2" >2 days</badge>
+                <badge className="badge  badge-dark  rounded-pill px-2" >2 days</badge>
               </div>
              </div>
              <div className="col-sm-12 lineSpace pt-3" >
@@ -125,11 +125,11 @@ function LandingPage() {
                 <h3 className="mb-1"><b>Step 2</b></h3>
               </div>
               <div className="col-sm-12 pl-0" >
-                <badge className="badge  badge-primary background_custom rounded-pill px-2" >2 days</badge>
+                <badge className="badge  badge-dark  rounded-pill px-2" >2 days</badge>
               </div>
              </div>
              <div className="col-sm-12 lineSpace pt-3" >
-              You tell us your requirements to shape a vision of a design and development team perfect for your project.
+             We search within our engineer talent pool. If there's a match, we can start the next day. In 60% of cases, we begin in less than 7 days.
               </div>
           </div>
         </div>
@@ -143,11 +143,11 @@ function LandingPage() {
                 <h3 className="mb-1"><b>Step 3</b></h3>
               </div>
               <div className="col-sm-12 pl-0" >
-                <badge className="badge  badge-primary background_custom rounded-pill px-2" >3 days</badge>
+                <badge className="badge  badge-dark  rounded-pill px-2" >3 days</badge>
               </div>
              </div>
              <div className="col-sm-12 lineSpace pt-3" >
-              You tell us your requirements to shape a vision of a design and development team perfect for your project.
+             All specialists in the team receive their scope of work with the deadlines, and the development process begins!
               </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ function LandingPage() {
             <div className="col-sm-6 m-auto"> 
             <h3><b>Find Out Your Project Cost</b></h3>
           <h5 className="mt-3">We’ll contact you within one business day (GMT +2).</h5>
-          <button className="btn btn-primary px-5 rounded-pill background_custom mt-3" ><b> Get estimation </b></button>
+          <button className="btn btn-dark px-5 rounded-pill  mt-3" ><b> Get estimation </b></button>
           </div>
             <div className="col-sm-6 text-center">
               <img src="../images/objects.png" className="img-fluid img_setting"  />
@@ -210,7 +210,7 @@ function LandingPage() {
                 <h5 className="pt-3 color_gray">
                 Powercode is the Ultimate software development company. Increasing your business success with technology!
                 </h5>
-                <button className="btn btn-primary rounded-pill button_mob_setting btn-lg mt-3" >
+                <button className="btn btn-dark rounded-pill button_mob_setting btn-lg mt-3" >
                   About Powercode
                 </button>
               </div>
@@ -256,7 +256,7 @@ function LandingPage() {
               <h1><b>Case Studies</b></h1>
             </div>
             <div className="col-sm-6 text_cases" >
-              <button className="btn btn-primary px-5 rounded-pill background_custom" ><b> More cases </b></button>
+              <button className="btn btn-dark px-5 rounded-pill " ><b> More cases </b></button>
             </div>
             <div className="col-sm-4 pt-5">
               <img src="https://api-api.powercode.pro/wp-content/uploads/2022/09/%D0%AD%D0%9A%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2_-%D0%9F%D1%80%D0%B5%D0%B2%D1%8C%D1%8E.png" className="img-fluid img_blog" />
@@ -328,7 +328,7 @@ function LandingPage() {
               <h1><b>Case Insights</b></h1>
             </div>
             <div className="col-sm-6  text_cases" >
-              <button className="btn btn-primary px-5 rounded-pill background_custom" ><b> More insights </b></button>
+              <button className="btn btn-dark px-5 rounded-pill " ><b> More insights </b></button>
             </div>
             <div className="col-sm-4 pt-5">
               <img src="https://api-api.powercode.pro/wp-content/uploads/2022/11/preview-1.png" className="img-fluid img_blog" />
@@ -389,7 +389,7 @@ function LandingPage() {
               <textarea type="text" placeholder="Project description" className="form-control form-control-lg " ></textarea>
             </div>
             <div className="col-sm-12 mt-4 pb-3">
-            <button className="btn btn-primary px-5 rounded-pill background_custom" ><b> Submit </b></button>
+            <button className="btn btn-dark px-5 rounded-pill " ><b> Submit </b></button>
             </div>
            
             </div>

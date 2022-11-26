@@ -139,7 +139,7 @@ function NavbarLanding() {
                       onClick={() =>
                         history.push(`/signup`)
                       }
-                        className="btn btn-outline-primary cutom_button rounded-pill px-4"
+                        className="btn btn-outline-dark  rounded-pill px-4"
                         type="submit"
                       >
                       <b>  Work <i className="fas fa-arrow-right"></i></b> 
@@ -151,7 +151,7 @@ function NavbarLanding() {
                       onClick={() =>
                         history.push(`/signup`)
                       }
-                        className="btn btn-primary rounded-pill px-4"
+                        className="btn btn-dark rounded-pill px-4"
                         type="submit"
                       >
                       <b>  Get in Touch</b> 
