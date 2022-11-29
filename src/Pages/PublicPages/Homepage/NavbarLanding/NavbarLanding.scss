@@ -1,10 +1,34 @@
 @import "../../../../Assets/Scss/veriables.scss";
 @import "~react-pro-sidebar/dist/scss/styles.scss";
 
+.back_botton_color
+{
+    background-color: #EBF1FB;
+    color: #0069D9;
+    border: #EBF1FB;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+
 .cutom_button
 {
     border: 2px solid #0069D9;
     color: #0069D9;
+}
+
+.content_height
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10000000;
+    background-color: white;
+
+    top: 0;
+    left: 0;
+
 }
 
 .navmobile
@@ -645,6 +669,7 @@ ul.ruby-menu > li > a {
 ul.ruby-menu > li > a:hover,ul.ruby-menu > li:hover > a,ul.ruby-menu > li.ruby-active-menu-item > a:hover,ul.ruby-menu > li.ruby-active-menu-item:hover > a {
     background: #222;
     color: #212530;
+    border-bottom: 3px solid black;
 }
 
 ul.ruby-menu > li.ruby-active-menu-item > a {
@@ -1232,12 +1257,14 @@ ul.ruby-menu > li.ruby-menu-mega > div,ul.ruby-menu > li.ruby-menu-mega-blog > d
     left: 0;
     // margin-top: 5% !important;
     background: #fff;
-    margin-top: 15px !important;
-    border-top: 1px dashed gray;
+    margin-top: 20px !important;
+    border-top: 1px solid white;
     overflow: hidden;
     -webkit-box-shadow: 0 8px 24px -5px #ccc;
     -moz-box-shadow: 0 8px 24px -5px #ccc;
-    box-shadow: 0 8px 24px -5px #ccc
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.552);
+    border-radius: 10px;
+    padding-bottom: 2%;
 }
 
 ul.ruby-menu > li.ruby-menu-mega-blog > div > ul.ruby-menu-mega-blog-nav {
@@ -1603,7 +1630,7 @@ span.ruby-c-content {
 
     div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu > li:hover > a,div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu > li > a:hover,div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu.ruby-menu-dividers > li:hover > a,div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu.ruby-menu-dividers > li > a:hover {
         background: none;
-        color: #e2e2e2
+        color: red
     }
 
     div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu > li.ruby-menu-social.ruby-menu-search > a:hover,div.ruby-wrapper.ruby-menu-transparent > ul.ruby-menu > li.ruby-menu-social.ruby-menu-search:hover > a {

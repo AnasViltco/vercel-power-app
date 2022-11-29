@@ -4,6 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 
 function NavbarLanding() {
   const [show, handleShow] = useState(false);
+  const [opennav, setOpennav] = useState(false);
 
   const transitionNavBar = () => {
     if (window.scrollY > 10) {
@@ -22,29 +23,35 @@ function NavbarLanding() {
   return (
     <div className={`col-sm-12  fixed-top ${show && "bg_nav_white"} `}>
 
-    <div className="col-sm-12 p-0 navmobile">
-    <nav className="navbar navbar-expand-lg navbar-light background_navbar ">
-  <a className="navbar-brand" href="#"> <Link to="/">  <img src="../images/logo.png" className="img-fluid" /></Link></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon" />
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav ml-auto">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Features</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Pricing</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+    <div className="col-sm-12  pt-3 pb-3 navmobile">
+    {/*  */}
+    <div className="row">
+      <div className="col-md-8 col-8"><Link to="/">  <img src="../images/logo.png" className="img-fluid" /></Link></div>
+      <div className="col-md-4 col-4 m-auto text-right">
+        <button className="btn btn-dark" onClick={()=>setOpennav(true)}>
+        <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    {opennav?(
+      
+    <div className="col-sm-12 pt-3 pr-5  content_height">
+      <div className="row">
+      <div className="col-md-8 col-8"><Link to="/">  <img src="../images/logo.png" className="img-fluid" /></Link></div>
+      <div className="col-md-4 col-4 m-auto text-right">
+        <button className="btn btn-dark" onClick={()=>setOpennav(false)}>
+        <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <div className="col-sm-12 pt-4 text-center">
+      <h4><b>Company</b></h4>
+      </div>
   </div>
-</nav>
+    ):(null)}
+
 
     </div>
 
@@ -145,8 +152,8 @@ function NavbarLanding() {
                       <b>  Work <i className="fas fa-arrow-right"></i></b> 
                       </button>
               </li>
-              <li className="ruby-menu-right mb-5">
-                <a >
+              <li className="ruby-menu-right mb-5 pt-2 pr-2">
+               
                 <button
                       onClick={() =>
                         history.push(`/signup`)
@@ -156,79 +163,81 @@ function NavbarLanding() {
                       >
                       <b>  Get in Touch</b> 
                       </button>
-                </a>
+               
               </li>
-           
+              
 
               <li className="ruby-menu-mega ruby-menu-right">
-                <a href="#">Company</a>
+                <a href="#">Expertise</a>
                 <div className="ruby-grid ruby-grid-lined">
                   <div className="col-sm-12 pt-3 pb-3">
                     <div className="col-sm-12 pb-4">
-                    <h5><b>Company</b></h5>
+                    <h5><b>Expertise</b></h5>
                     </div>
                     <div className="col-sm-12">
                       <div className="row">
-                        <div className="col-sm-4">
-                          <div
-                            onClick={() =>
-                              history.push(`/aboutus`)
-                            }                                                     
-                          className="col-sm-12 card_background_color p-4 pb-3">
-                            <div className="col-sm-12 pb-5">
-                            <button className="btn btn-primary rounded-circle background_color_button">
-                              <i class="fas fa-home" ></i>
-                            </button>
+                        <div className="col-sm-3">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <button className="btn btn-primary  back_botton_color"><i class="fas fa-mobile"></i></button>
                             </div>
-                            <div className="col-sm-12 ">
-                            <h6><b>About us</b></h6>
-                            <p>view our stories, mission and values</p>
-                          </div>
-                          </div>
-                      
-                        </div>
-                        <div className="col-sm-4">
-                          <div
-                            onClick={() =>
-                              history.push(`/terms`)
-                            }
-                          className="col-sm-12 card_background_color p-4 pb-3">
-                            <div className="col-sm-12 pb-5">
-                            <button className="btn btn-primary rounded-circle background_color_button">
-                            <i class="fas fa-shield-alt"></i>
-                            </button>
+                            <div className="col-sm-10 m-auto">
+                              <h6><b>Mobile Development</b></h6>
                             </div>
-                            <div className="col-sm-12 ">
-                            <h6><b>T & C</b></h6>
-                            <p>view our stories, mission and values</p>
-                          </div>
-                          </div>
-                      
-                        </div>
-                        <div className="col-sm-4">
-                          <div
-                          
-                          onClick={() =>
-                            history.push(`/faq`)
-                          } 
-                          className="col-sm-12 card_background_color p-4 pb-3">
-                            <div className="col-sm-12 pb-5">
-                            <button className="btn btn-primary rounded-circle background_color_button">
-                            <i class="fas fa-question"></i>
-                            </button>
+                            <div className="col-sm-12 pt-2">
+                              <h6>Our iOS, Android, and cross-platform development services for your business</h6>
                             </div>
-                            <div className="col-sm-12 ">
-                            <h6><b>FAQ's</b></h6>
-                            <p>view our stories, mission and values</p>
                           </div>
-                          </div>
-                      
                         </div>
+                        <div className="col-sm-3">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <button className="btn btn-primary   back_botton_color"><i class="fas fa-hamburger"></i></button>
+                            </div>
+                            <div className="col-sm-10 m-auto">
+                              <h6><b>Foodtech</b></h6>
+                            </div>
+                            <div className="col-sm-12 pt-2">
+                              <h6>CRM systems, delivery platforms, online grocery stores and alot more.</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-sm-3">  
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <button className="btn btn-primary   back_botton_color"><i class="fas fa-heartbeat"></i></button>
+                            </div>
+                            <div className="col-sm-10 m-auto">
+                              <h6><b>Healthcare</b></h6>
+                            </div>
+                            <div className="col-sm-12 pt-2">
+                              <h6>Doctor booking apps, telehealth platforms and alot more.</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-sm-3">
+                          <div className="row">
+                            <div className="col-sm-2">
+                              <button className="btn btn-primary   back_botton_color"><i class="fas fa-graduation-cap"></i></button>
+                            </div>
+                            <div className="col-sm-10 m-auto">
+                              <h6><b>Education</b></h6>
+                            </div>
+                            <div className="col-sm-12 pt-2">
+                              <h6>E-learning platforms, childcare apps, CRM, streaming services, and others.</h6>
+                            </div>
+                          </div>
+                        </div>
+                       
                       </div>
                     </div>
                   </div>
                 </div>
                 <span className="ruby-dropdown-toggle" />
+              </li>
+
+              <li className="ruby-menu-mega ruby-menu-right">
+                <a href="#">Company</a>
               </li>
             
              
