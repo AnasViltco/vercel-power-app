@@ -11,6 +11,41 @@
     border-radius: 50px;
 }
 
+#color_ico_blue
+{
+    color: #0069D9;
+}
+
+.background_cllapse
+{
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.background_cllapse:hover
+{
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.background_cllapse:focus
+{
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.style_logo:hover
+{
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
 
 .cutom_button
 {
@@ -25,9 +60,10 @@
     position: absolute;
     z-index: 10000000;
     background-color: white;
-
+    overflow-y: auto !important;
     top: 0;
     left: 0;
+    padding-bottom: 10%;
 
 }
 
